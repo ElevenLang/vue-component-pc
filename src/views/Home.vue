@@ -13,6 +13,11 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  mounted(){
+    this.$on('b-bot',(res)=>{
+      console.log(res)
+    })
   }
 }
 </script>
