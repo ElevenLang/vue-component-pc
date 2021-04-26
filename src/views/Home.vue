@@ -28,7 +28,7 @@ export default {
   },
   mounted() {
     console.log('父组件：mounted');
-    this.$on('inputTest', (text)=>{
+    this.$on('inputTest', (text) => {
       console.log(text);
     })
   }
